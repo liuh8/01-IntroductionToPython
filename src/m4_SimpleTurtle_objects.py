@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Hongyu Liu.
 """
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -116,7 +116,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -127,9 +127,25 @@ natasha.go_to(rg.Point(-100, 200))
 #
 ###############################################################################
 
+natasha.pen = rg.Pen('blue', 20)
+natasha.speed = 10
+
+natasha.right(30)
+natasha.forward(20)
+natasha.left(300)
+natasha.backward(100)
+natasha.right(60)
+natasha.forward(70)
+natasha.right(720)
+
+boris.right(90)
+boris.backward(150)
+boris.left(90)
+boris.forward(50)
+
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -153,6 +169,16 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+didi = rg.SimpleTurtle()
+didi.pen = rg.Pen('green', 20)
+didi.speed = 6
+
+didi.right(45)
+didi.forward(100)
+didi.draw_regular_polygon(10,50)
+didi.left(50)
+didi.backward(130)
+didi.draw_circle(20)
 
 ###############################################################################
 #
