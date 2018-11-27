@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -38,6 +38,7 @@ didi = rg.SimpleTurtle('turtle')
 didi.pen = rg.Pen('red', 5)
 didi.speed = 15
 
+
 import math
 
 
@@ -54,7 +55,6 @@ window.tracer(500)
 
 ains = rg.SimpleTurtle('square')
 ains.pen = rg.Pen('pink', 2)
-ains.speed = 6
 ains.forward(50)
 
 for k in range (699):
