@@ -49,7 +49,6 @@ for k in range (8):
     didi.right(90)
     didi.forward(100 * math.sqrt(2))
     didi.draw_circle(-100)
-    didi.end_fill()
 
 window.tracer(500)
 
@@ -60,5 +59,6 @@ ains.forward(50)
 for k in range (699):
     ains.right(99)
     ains.forward(k)
+
 
 window.close_on_mouse_click()
